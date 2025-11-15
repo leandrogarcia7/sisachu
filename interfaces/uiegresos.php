@@ -1,3 +1,4 @@
+
 <?php
 require '../negocio/USUARIO.php';
 require_once("../negocio/EGRESO.php"); // Suponiendo que TIPO_INGRESO y TIPO_EGRESO están en esta clase.
