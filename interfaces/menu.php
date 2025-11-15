@@ -1,11 +1,18 @@
 <?php
-require '../negocio/USUARIO.php';
-$usu= new USUARIO();
-   session_start();
-if(isset($_REQUEST['bttlogin'])){
-    
-}else
-require_once("../encabezado.php");   
+require __DIR__ . '/../negocio/USUARIO.php';
+
+$usu = new USUARIO();
+
+session_start();
+
+if (isset($_REQUEST['bttlogin'])) {
+    // El encabezado no se carga cuando se procesa el login.
+} else {
+    $encabezado = __DIR__ . '/../encabezado.php';
+    if (is_file($encabezado)) {
+        require_once $encabezado;
+    }
+}
 ?>
 
 <html lang="es">
