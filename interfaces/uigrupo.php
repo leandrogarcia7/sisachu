@@ -3,6 +3,8 @@ require '../negocio/USUARIO.php';
 require '../negocio/GRUPO.php';
 
 $usu = new USUARIO();
+$usu= new USUARIO();
+   session_start();
 $grupo = new GRUPO();
 
 session_start();
@@ -99,3 +101,4 @@ require_once("../encabezado.php");
 </main>
 </body>
 </html>
+

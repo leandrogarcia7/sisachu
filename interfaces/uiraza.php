@@ -3,6 +3,8 @@ require '../negocio/USUARIO.php';
 require '../negocio/RAZA.php';
 
 $usu = new USUARIO();
+$usu= new USUARIO();
+   session_start();
 $raza = new RAZA();
 
 session_start();
@@ -89,3 +91,4 @@ require_once("../encabezado.php");
 </main>
 </body>
 </html>
+
