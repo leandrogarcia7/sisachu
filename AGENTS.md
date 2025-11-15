@@ -9,3 +9,6 @@
 - Cualquier cambio que añada métodos o clases debe incluir una breve descripción en el `README.md` siguiendo la estructura actual (sección de la clase con lista de métodos).
 - Las interfaces en `interfaces/` deben indicar claramente qué acciones de negocio exponen en los comentarios o documentación relacionada.
 
+## Comunicación
+- Todas las respuestas hacia el usuario deben redactarse en español, sin excepción.
+
