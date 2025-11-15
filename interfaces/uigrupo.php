@@ -3,8 +3,6 @@ require '../negocio/USUARIO.php';
 require '../negocio/GRUPO.php';
 
 $usu = new USUARIO();
-$usu= new USUARIO();
-   session_start();
 $grupo = new GRUPO();
 
 session_start();
@@ -14,7 +12,10 @@ if (!isset($_SESSION['idhac'])) {
     exit;
 }
 
-require_once("../encabezado.php");
+$encabezado = __DIR__ . '/../encabezado.php';
+if (is_file($encabezado)) {
+    require_once $encabezado;
+}
 
 ?>
 <!DOCTYPE html>
@@ -101,4 +102,3 @@ require_once("../encabezado.php");
 </main>
 </body>
 </html>
-
