@@ -1,3 +1,4 @@
+
 <?php
 require_once("../negocio/BALANCE.php");
 function crearCliente($nomcli){
@@ -34,4 +35,5 @@ if(isset($_REQUEST['codcat'])){
 if(isset($_REQUEST['lcodsub'])){
     mostrarMonto($_REQUEST['lcodsub']);
 }
+
 ?>
