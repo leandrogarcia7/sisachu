@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 require_once("TIPO.php");
 
@@ -778,8 +777,8 @@ public function generarRetencion($codegr){
 }
 
 	
-=======
-<?php
+
+
 require_once("TIPO.php");
 
 
@@ -1558,4 +1557,4 @@ public function generarRetencion($codegr){
 }
 
 	
->>>>>>> 874e0ab04d19a92fa5cb3e836e0d41d3e0266fbe
+

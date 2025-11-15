@@ -5,11 +5,17 @@
         <group name="UERS"/>
         <group/>
         <group name="sisachu">
+            <file>file:/C:/xampp/htdocs/sisachu/encabezado.php</file>
+            <file>file:/C:/xampp/htdocs/sisachu/interfaces/uibalance.php</file>
+            <file>file:/C:/xampp/htdocs/sisachu/interfaces/uiingresos.php</file>
+            <file>file:/C:/xampp/htdocs/sisachu/interfaces/uiegresos.php</file>
             <file>file:/C:/xampp/htdocs/sisachu/interfaces/mobile.php</file>
             <file>file:/C:/xampp/htdocs/sisachu/negocio/BASE.php</file>
+            <file>file:/C:/xampp/htdocs/sisachu/login.php</file>
             <file>file:/C:/xampp/htdocs/sisachu/negocio/HACIENDA.php</file>
             <file>file:/C:/xampp/htdocs/sisachu/negocio/REPRODUCCION.php</file>
             <file>file:/C:/xampp/htdocs/sisachu/interfaces/uihacienda.php</file>
+            <file>file:/C:/xampp/htdocs/sisachu/interfaces/jqingresos.php</file>
         </group>
     </open-files>
 </project-private>
